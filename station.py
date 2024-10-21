@@ -6,14 +6,9 @@ class Station():
         self.west = west
         # [m]
         self.up = up
-        # [rad]
-        self.roll = roll
-        # [rad]
-        self.pitch = pitch
-        # [rad]
-        self.yaw = yaw
-        # 
         self.id = self.calculate_id()
+        #
+        self._3D.model = None
 
     def calculate_id(self):
         self.id = int(

@@ -1,3 +1,4 @@
 class Product():
     def __init__(self) -> None:
-        pass
+        self.id = None
+        self._3D = None
